@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Canon : MonoBehaviour
@@ -11,13 +9,6 @@ public class Canon : MonoBehaviour
     private float moveSpeed = 15f;
     private float movementBoundry = 21.5f;
     private float horizontalInput;
-
-    // private Rigidbody canonBallRigidbody;
-
-    private void Start()
-    {
-        // canonBallRigidbody = GetComponent<Rigidbody>();
-    }
 
     private void Update()
     {

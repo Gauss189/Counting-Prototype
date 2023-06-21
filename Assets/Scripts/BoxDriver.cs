@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BoxDriver : MonoBehaviour
@@ -10,11 +8,6 @@ public class BoxDriver : MonoBehaviour
 
     Vector3 pointA;
     Vector3 pointB;
-
-    void Start()
-    {
-
-    }
 
     void Update()
     {
